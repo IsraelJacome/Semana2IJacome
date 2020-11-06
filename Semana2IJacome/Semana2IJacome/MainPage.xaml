@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana2IJacome.MainPage">
+
+    <StackLayout>
+
+
+        <Label Text="Ventana 1 LOGIN " HorizontalTextAlignment="Center" TextColor="red" FontSize="30">
+        </Label>
+
+        <Entry x:Name="txtUser"
+                   Placeholder="Ingrese el usuario">
+
+        </Entry>
+
+        <Entry x:Name="txtPass"
+                   Placeholder="Ingrese la clave"
+                   IsPassword="True">
+
+        </Entry>
+
+
+        <Button x:Name="btnAbrir_ventana_dos"
+                    Text="Abrir ventana 2"
+                    Clicked="btnAbrir_ventana_dos_Clicked">
+
+        </Button>
+
+
+    </StackLayout>
+
+</ContentPage>
